@@ -3,59 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Core | Level Up Your Server</title>
+    <title>Dark Core | Discord Bot</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <nav>
+    <nav class="navbar">
+        <div class="nav-container">
             <div class="logo">
-                <span class="logo-box">D</span> Dark Core
+                <div class="logo-circle">D</div>
+                <span>Dark Core</span>
             </div>
-            <div class="nav-links">
-                <a id="nav-discord" href="#"><img src="https://img.icons8.com/ios-filled/20/ffffff/discord-logo.png" style="vertical-align: middle; margin-right: 5px;"> Discord</a>
-                <a id="nav-invite" href="#" class="btn-invite">Invite Bot ↗</a>
+            <div class="nav-buttons">
+                <a href="https://discord.gg/yourlink" class="btn-text">Discord</a>
+                <a href="https://discord.com/oauth2/..." class="btn-primary">Invite Bot</a>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">Level Up Your Server <br> with <span class="highlight">Dark Core</span></h1>
+            <p class="hero-subtitle">Premium security, fast responses, and complete customization for your community.</p>
+            <div class="hero-cta">
+                <a href="https://discord.com/oauth2/..." class="btn-main">Add to Discord</a>
+                <a href="https://discord.gg/yourlink" class="btn-secondary">Support Server</a>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Level Up Your Server <br> with <span>Dark Core</span></h1>
-            <p>The most advanced, secure, and feature-rich Discord bot designed to protect and engage your community.</p>
-            <div class="hero-btns">
-                <a id="hero-add" href="#" class="btn-primary">Add to Discord</a>
-                <a id="hero-support" href="#" class="btn-secondary">Support Server</a>
-            </div>
-        </section>
-
-        <section class="features">
+    <section class="features">
+        <div class="container grid">
             <div class="card">
-                <div class="icon">🛡️</div>
                 <h3>Advanced Security</h3>
-                <p>Protect your server with our state-of-the-art security features.</p>
+                <p>Automated threat detection and encryption to keep your members safe 24/7.</p>
             </div>
             <div class="card">
-                <div class="icon">⚡</div>
                 <h3>Fast Response</h3>
-                <p>Experience ultra-low latency with our globally distributed servers.</p>
+                <p>Ultra-low latency infrastructure ensures your commands execute instantly.</p>
             </div>
             <div class="card">
-                <div class="icon">⚙️</div>
                 <h3>Customizable</h3>
-                <p>Tailor Dark Core to your server's unique needs with ease.</p>
+                <p>Modify every embed, color, and command to match your server's vibe.</p>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2026 Dark Core. All rights reserved.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="terms.html">Terms of Service</a>
+                <span style="color: #444;">|</span>
+                <a href="policy.html">Privacy Policy</a>
+            </div>
+            <p>&copy; 2026 Dark Core. Built for professional servers.</p>
+        </div>
     </footer>
 
-    <script src="config.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
